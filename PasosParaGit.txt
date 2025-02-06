@@ -1,0 +1,15 @@
+git init
+git remote add origin https://github.com/KennethMonge808/RepositorioPruebaGit.git
+git config --global user.name "DerekMarceloMongeAguilar"
+git config --global user.email "derekmongeaguilar@gmail.com"
+git clone  https://github.com/DerekMarceloMongeAguilar/RepositorioPruebaGit.git
+
+Abrir carpeta del repositorio clonado y empezar otro git adentro.
+$ git init
+$ git checkout -b Derekm
+
+Crear un documento para subir.
+
+git add DocPrueba.txt
+git commit -m "Primer Commit derek"
+git push -u origin Derekm
